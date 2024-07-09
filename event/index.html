@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENT CALENDER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>EVENT CALENDER</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>rich dad poor dad</h2>
+            <h5>robert</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nesciunt vel aperiam ut officia officiis dicta possimus, nobis rerum minima atque eum quisquam modi sit nihil enim temporibus autem. At?</p>
+            <button onclick="deleteevent(event)">delete</button>
+        </div>
+    </div>
+    <div class="popup-over">
+    </div>
+    <div class="popup-box">
+        <h2>ADD EVENT</h2>
+        <form>
+            <input type="text" placeholder="EVENT" id="event-title">
+            <input type="text" placeholder="TIME" id="event-time">
+            <textarea placeholder="SHORT DESCRIPTION" id="event-des"></textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancel">CANCEL</button>
+        </form>
+    </div>
+    <button class="add-button" id="add-popup">+</button>
+    <script src="script.js"></script>
+</body>
+</html>
